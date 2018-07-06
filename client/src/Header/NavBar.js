@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import AddForm from './AddForm';
+import App from '../App/App';
+import AddForm from '../Forms/AddForm';
 
 class NavBar extends Component{
       handleAdd() {

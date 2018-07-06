@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery'; 
-import logo from './logo.svg';
-import './App.css';
-import { NavBar } from './NavBar.js';
-import EmployeeTable from './EmployeeTable';
+import logo from '../logo.svg';
+import { NavBar } from '../Header/NavBar.js';
+import EmployeeTable from '../Table/EmployeeTable';
 
 var createReactClass = require('create-react-class');
 var App = createReactClass({

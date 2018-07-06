@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import toastr from "react-toastr";
-import EditModal from './EditModal'; 
+import EditModal from '../Forms/EditModal';
 
 var createReactClass = require('create-react-class');
 var Employee = createReactClass({

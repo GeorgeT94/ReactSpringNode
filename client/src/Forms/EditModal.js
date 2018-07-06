@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery'; 
 
-import EmployeeTable from './EmployeeTable';
+import EmployeeTable from '../Table/EmployeeTable';
 import EditForm from './EditForm';
 
 var createReactClass = require('create-react-class');

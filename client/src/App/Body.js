@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import NavBar from './NavBar';
-import AddForm from './AddForm';
+import NavBar from '../Header/NavBar';
+import AddForm from '../Forms/AddForm';
 
 var createReactClass = require('create-react-class');
 var Body = createReactClass({
